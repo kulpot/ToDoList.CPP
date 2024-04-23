@@ -8,7 +8,12 @@
 //View->Other Windows->Property Manager->right click:ToDoList->Add Existing Property Sheet..->C:\Users\wxWidgets-\wxwidgets.props
 
 
-class Task
+struct Task
 {
+	std::string description;
+	bool done;
 };
+
+void saveTasksToFile(const std::vector<Task>& tasks, const std::string& filename);
+std::vector<Task> loadTasksFromFile(const std::string& fileName);
 
