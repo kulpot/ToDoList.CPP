@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+#include <vector>
 
 //Requirements: Open Folder->C:\Users\sunny\wxWidgets-\build\msw ->click:wx_vc16.sln
 //build: Debug->32->Release->32/Debug->x64->Release->x64
