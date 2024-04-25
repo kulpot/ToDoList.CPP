@@ -14,7 +14,7 @@ void saveTasksToFile(const std::vector<Task>& tasks, const std::string& fileName
 		std::string description = task.description;
 		std::replace(description.begin(), description.end(), ' ', '_');
 
-
+		ostream << '\n' << description << ' ' << task.done;
 	}
 }
 
