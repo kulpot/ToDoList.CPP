@@ -8,6 +8,11 @@
 void saveTasksToFile(const std::vector<Task>& tasks, const std::string& fileName)
 {
 	std::ofstream ostream(fileName);
+	ostream << tasks.size();
+
+	for (const Task& task : tasks) {
+
+	}
 }
 
 std::vector<Task> loadTasksFromFile(const std::string& fileName)
