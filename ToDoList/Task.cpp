@@ -1,4 +1,6 @@
 #include "Task.h"
+#include <string>
+#include <vector>
 
 void saveTasksToFile(const std::vector<Task>& tasks, const std::string& filename)
 {
