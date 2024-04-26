@@ -26,4 +26,7 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 
 	std::vector<Task> tasks;
 	std::ifstream istream(fileName);
+
+	int n;
+	istream >> n;
 }
