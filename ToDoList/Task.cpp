@@ -37,5 +37,6 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 
 		istream >> description >> done;
 		std::replace(description.begin(), description.end(), '_', ' ');
+		tasks.push_back(Task{ description, done });
 	}
 }
