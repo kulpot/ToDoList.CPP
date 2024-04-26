@@ -32,6 +32,7 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 
 	for (int i = 0; i < n; i++)
 	{
-
+		std::string description;
+		bool done;
 	}
 }
