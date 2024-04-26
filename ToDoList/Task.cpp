@@ -23,4 +23,6 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 	if (!std::filesystem::exists(fileName)) {
 		return std::vector<Task>();
 	}
+
+	std::vector<Task> tasks;
 }
