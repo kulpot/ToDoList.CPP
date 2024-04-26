@@ -34,5 +34,7 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 	{
 		std::string description;
 		bool done;
+
+		istream >> description >> done;
 	}
 }
