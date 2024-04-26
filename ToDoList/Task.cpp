@@ -21,6 +21,6 @@ void saveTasksToFile(const std::vector<Task>& tasks, const std::string& fileName
 std::vector<Task> loadTasksFromFile(const std::string& fileName)
 {
 	if (!std::filesystem::exists(fileName)) {
-
+		return std::vector<Task>();
 	}
 }
