@@ -29,4 +29,9 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 
 	int n;
 	istream >> n;
+
+	for (int i = 0; i < n; i++)
+	{
+
+	}
 }
