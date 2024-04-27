@@ -4,6 +4,7 @@
 #include <string>
 #include "Task.h"
 
-MainFrame::MainFrame(const wxString& title)
+MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
+
 }
