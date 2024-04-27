@@ -39,4 +39,6 @@ std::vector<Task> loadTasksFromFile(const std::string& fileName)
 		std::replace(description.begin(), description.end(), '_', ' ');
 		tasks.push_back(Task{ description, done });
 	}
+
+	return tasks;
 }
