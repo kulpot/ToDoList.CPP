@@ -1,7 +1,7 @@
 #pragma once
 #include <wx/wx.h>
 
-class App
+class App : public wxApp
 {
 };
 
