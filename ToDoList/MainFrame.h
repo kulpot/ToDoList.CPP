@@ -9,6 +9,6 @@ private:
 	wxPanel* panel;
 	wxStaticText* headLineText;
 	wxTextCtrl* inputField;
-
+	wxButton* addButton;
 };
 
