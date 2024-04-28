@@ -11,6 +11,6 @@ private:
 	wxTextCtrl* inputField;
 	wxButton* addButton;
 	wxCheckListBox* checkListBox;
-
+	wxButton* clearButton;
 };
 
