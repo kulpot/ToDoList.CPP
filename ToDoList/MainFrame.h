@@ -8,6 +8,7 @@ public:
 private:
 	wxPanel* panel;
 	wxStaticText* headLineText;
+	wxTextCtrl* inputField;
 
 };
 
