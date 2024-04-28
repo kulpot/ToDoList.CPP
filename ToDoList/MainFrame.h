@@ -10,5 +10,7 @@ private:
 	wxStaticText* headLineText;
 	wxTextCtrl* inputField;
 	wxButton* addButton;
+	wxCheckListBox* checkListBox;
+
 };
 
