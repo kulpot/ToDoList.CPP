@@ -7,6 +7,7 @@ public:
 	MainFrame(const wxString& title);
 private:
 	wxPanel* panel;
+	wxStaticText* headLineText;
 
 };
 
