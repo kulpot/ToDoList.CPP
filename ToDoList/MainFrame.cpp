@@ -15,4 +15,5 @@ void MainFrame::CreateControls()
 	wxFont mainFont(wxFontInfo(wxSize(0, 24)));
 
 	panel = new wxPanel(this);
+	panel->SetFont(mainFont);
 }
