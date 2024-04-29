@@ -9,7 +9,7 @@ private:
 	void CreateControls();
 
 	wxPanel* panel;
-	wxStaticText* headLineText;
+	wxStaticText* headlineText;
 	wxTextCtrl* inputField;
 	wxButton* addButton;
 	wxCheckListBox* checkListBox;
