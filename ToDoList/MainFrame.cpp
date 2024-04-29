@@ -13,4 +13,6 @@ void MainFrame::CreateControls()
 {
 	wxFont headlineFont(wxFontInfo(wxSize(0, 36)).Bold());
 	wxFont mainFont(wxFontInfo(wxSize(0, 24)));
+
+	panel = new wxPanel(this);
 }
