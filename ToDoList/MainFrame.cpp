@@ -8,3 +8,7 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
 
 }
+
+void MainFrame::CreateControls()
+{
+}
