@@ -7,6 +7,7 @@ public:
 	MainFrame(const wxString& title);
 private:
 	void CreateControls();
+	void BindEventHandlers();
 
 	wxPanel* panel;
 	wxStaticText* headlineText;
