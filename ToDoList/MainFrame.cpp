@@ -6,7 +6,7 @@
 
 MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
-
+	CreateControls();
 }
 
 void MainFrame::CreateControls()
