@@ -23,4 +23,5 @@ void MainFrame::CreateControls()
 	//headlineText->SetBackgroundColour(*wxRED);
 
 	inputField = new wxTextCtrl(panel, wxID_ANY, "", wxPoint(100, 80), wxSize(495, 35));
+	addButton = new wxButton(panel, wxID_ANY, "Add", wxPoint(600, 80), wxSize(100, 35));
 }
