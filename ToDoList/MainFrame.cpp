@@ -29,3 +29,7 @@ void MainFrame::CreateControls()
 
 	// (FOR BLURRINESS PROBLEM)->ProjectProperties->Manifest Tool->Input and Output->DPI Awareness->High DPI Aware->Apply
 }
+
+void MainFrame::BindEventHandlers()
+{
+}
