@@ -20,5 +20,7 @@ void MainFrame::CreateControls()
 	headlineText = new wxStaticText(panel, wxID_ANY, "To-Do List",
 		wxPoint(0, 22), wxSize(800, -1), wxALIGN_CENTER_HORIZONTAL);
 	headlineText->SetFont(headlineFont);
-	headlineText->SetBackgroundColour(*wxRED);
+	//headlineText->SetBackgroundColour(*wxRED);
+
+	inputField = new wxTextCtrl(panel, wxID_ANY, "", wxPoint(100, 80), wxSize(495, 35));
 }
