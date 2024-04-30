@@ -9,6 +9,8 @@ private:
 	void CreateControls();
 	void BindEventHandlers();
 
+	void OnAddButtonClicked(wxCommandEvent& evt);
+
 	wxPanel* panel;
 	wxStaticText* headlineText;
 	wxTextCtrl* inputField;

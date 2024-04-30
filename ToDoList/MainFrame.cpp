@@ -33,3 +33,7 @@ void MainFrame::CreateControls()
 void MainFrame::BindEventHandlers()
 {
 }
+
+void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
+{
+}
