@@ -37,6 +37,7 @@ void MainFrame::BindEventHandlers()
 
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
 {
+	AddTaskFromInput();
 }
 
 void MainFrame::AddTaskFromInput()
