@@ -45,6 +45,6 @@ void MainFrame::AddTaskFromInput()
 	wxString description = inputField->GetValue();
 
 	if (!description.IsEmpty()) {
-
+		checkListBox->Insert(description, checkListBox->GetCount());
 	}
 }
