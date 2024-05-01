@@ -47,5 +47,6 @@ void MainFrame::AddTaskFromInput()
 
 	if (!description.IsEmpty()) {
 		checkListBox->Insert(description, checkListBox->GetCount());
+		inputField->Clear();
 	}
 }
