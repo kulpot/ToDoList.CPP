@@ -43,4 +43,8 @@ void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
 void MainFrame::AddTaskFromInput()
 {
 	wxString description = inputField->GetValue();
+
+	if (!description.IsEmpty()) {
+
+	}
 }
