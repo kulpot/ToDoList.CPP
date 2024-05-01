@@ -11,6 +11,8 @@ private:
 
 	void OnAddButtonClicked(wxCommandEvent& evt);
 
+	void AddTaskFromInput();
+
 	wxPanel* panel;
 	wxStaticText* headlineText;
 	wxTextCtrl* inputField;
