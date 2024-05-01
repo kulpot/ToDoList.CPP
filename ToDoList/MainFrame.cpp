@@ -32,6 +32,7 @@ void MainFrame::CreateControls()
 
 void MainFrame::BindEventHandlers()
 {
+	addButton->Bind(wxEVT_BUTTON, &MainFrame::OnAddButtonClicked, this);
 }
 
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
