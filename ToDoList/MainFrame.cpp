@@ -49,4 +49,6 @@ void MainFrame::AddTaskFromInput()
 		checkListBox->Insert(description, checkListBox->GetCount());
 		inputField->Clear();
 	}
+
+	inputField->SetFocus();
 }
