@@ -35,6 +35,7 @@ void MainFrame::CreateControls()
 void MainFrame::BindEventHandlers()
 {
 	addButton->Bind(wxEVT_BUTTON, &MainFrame::OnAddButtonClicked, this);
+	inputField->Bind(wxEVT_TEXT_ENTER, &MainFrame::OnInputEnter, this);
 }
 
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
