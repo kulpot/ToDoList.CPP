@@ -14,6 +14,7 @@ private:
 	void OnListKeyDown(wxKeyEvent& evt);
 
 	void AddTaskFromInput();
+	void DeleteSelectedTask();
 
 	wxPanel* panel;
 	wxStaticText* headlineText;
