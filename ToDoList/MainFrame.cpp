@@ -45,6 +45,7 @@ void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
 
 void MainFrame::OnInputEnter(wxCommandEvent& evt)
 {
+	AddTaskFromInput();
 }
 
 void MainFrame::AddTaskFromInput()
