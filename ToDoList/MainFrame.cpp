@@ -41,6 +41,10 @@ void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
 	AddTaskFromInput();
 }
 
+void MainFrame::OnInputEnter(wxCommandEvent& evt)
+{
+}
+
 void MainFrame::AddTaskFromInput()
 {
 	wxString description = inputField->GetValue();
