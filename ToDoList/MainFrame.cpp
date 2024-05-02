@@ -63,3 +63,7 @@ void MainFrame::AddTaskFromInput()
 
 	inputField->SetFocus();
 }
+
+void MainFrame::DeleteSelectedTask()
+{
+}
