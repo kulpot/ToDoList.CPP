@@ -75,6 +75,8 @@ void MainFrame::DeleteSelectedTask()
 	int selectedIndex = checkListBox->GetSelection();
 
 	if (selectedIndex == wxNOT_FOUND) {
-
+		return;
 	}
+
+	checkListBox->Delete(selectedIndex);
 }
