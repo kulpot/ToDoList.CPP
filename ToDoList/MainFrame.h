@@ -15,6 +15,7 @@ private:
 
 	void AddTaskFromInput();
 	void DeleteSelectedTask();
+	void MoveSelectedTask(int offset);
 
 	wxPanel* panel;
 	wxStaticText* headlineText;
