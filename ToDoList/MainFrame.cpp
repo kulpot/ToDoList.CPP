@@ -52,7 +52,9 @@ void MainFrame::OnInputEnter(wxCommandEvent& evt)
 void MainFrame::OnListKeyDown(wxKeyEvent& evt)
 {
 	switch (evt.GetKeyCode()) {
-
+	case WXK_DELETE:
+		DeleteSelectedTask();
+		break;
 	}
 }
 
