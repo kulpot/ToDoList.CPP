@@ -80,3 +80,7 @@ void MainFrame::DeleteSelectedTask()
 
 	checkListBox->Delete(selectedIndex);
 }
+
+void MainFrame::MoveSelectedTask(int offset)
+{
+}
