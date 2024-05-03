@@ -36,6 +36,7 @@ void MainFrame::BindEventHandlers()
 {
 	addButton->Bind(wxEVT_BUTTON, &MainFrame::OnAddButtonClicked, this);
 	inputField->Bind(wxEVT_TEXT_ENTER, &MainFrame::OnInputEnter, this);
+	checkListBox->Bind(wxEVT_KEY_DOWN, &MainFrame::OnListKeyDown, this);
 }
 
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
