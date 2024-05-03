@@ -84,3 +84,7 @@ void MainFrame::DeleteSelectedTask()
 void MainFrame::MoveSelectedTask(int offset)
 {
 }
+
+void MainFrame::SwapTasks(int i, int j)
+{
+}
