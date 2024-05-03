@@ -73,4 +73,8 @@ void MainFrame::AddTaskFromInput()
 void MainFrame::DeleteSelectedTask()
 {
 	int selectedIndex = checkListBox->GetSelection();
+
+	if (selectedIndex == wxNOT_FOUND) {
+
+	}
 }
