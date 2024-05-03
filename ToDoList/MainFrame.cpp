@@ -72,4 +72,5 @@ void MainFrame::AddTaskFromInput()
 
 void MainFrame::DeleteSelectedTask()
 {
+	int selectedIndex = checkListBox->GetSelection();
 }
