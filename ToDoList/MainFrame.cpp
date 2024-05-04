@@ -94,6 +94,12 @@ void MainFrame::MoveSelectedTask(int offset)
 	if (selectedIndex == wxNOT_FOUND) {
 		return;
 	}
+
+	int newIndex = selectedIndex + offset;
+
+	if (newIndex >= 0 && newIndex < checkListBox->GetCount()) {
+
+	}
 }
 
 void MainFrame::SwapTasks(int i, int j)
