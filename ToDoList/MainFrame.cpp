@@ -98,7 +98,8 @@ void MainFrame::MoveSelectedTask(int offset)
 	int newIndex = selectedIndex + offset;
 
 	if (newIndex >= 0 && newIndex < checkListBox->GetCount()) {
-
+		SwapTasks(selectedIndex, newIndex);
+		checkListBox->SetSelection(newIndex, true);
 	}
 }
 
