@@ -55,6 +55,9 @@ void MainFrame::OnListKeyDown(wxKeyEvent& evt)
 	case WXK_DELETE:
 		DeleteSelectedTask();
 		break;
+	case WXK_UP:
+		MoveSelectedTask(-1);
+		break;
 	}
 }
 
