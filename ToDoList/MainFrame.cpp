@@ -52,15 +52,15 @@ void MainFrame::OnInputEnter(wxCommandEvent& evt)
 void MainFrame::OnListKeyDown(wxKeyEvent& evt)
 {
 	switch (evt.GetKeyCode()) {
-	case WXK_DELETE:
-		DeleteSelectedTask();
-		break;
-	case WXK_UP:
-		MoveSelectedTask(-1);
-		break;
-	case WXK_DOWN:
-		MoveSelectedTask(+1);
-		break;
+		case WXK_DELETE:
+			DeleteSelectedTask();
+			break;
+		case WXK_UP:
+			MoveSelectedTask(-1);
+			break;
+		case WXK_DOWN:
+			MoveSelectedTask(+1);
+			break;
 	}
 }
 
@@ -89,6 +89,7 @@ void MainFrame::DeleteSelectedTask()
 
 void MainFrame::MoveSelectedTask(int offset)
 {
+	int selectedIndex = checkListBox->GetSelection();
 }
 
 void MainFrame::SwapTasks(int i, int j)
