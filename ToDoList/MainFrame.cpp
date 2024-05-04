@@ -107,4 +107,7 @@ void MainFrame::SwapTasks(int i, int j)
 {
 	Task taskI{ checkListBox->GetString(i).ToStdString(), checkListBox->IsChecked(i) };
 	Task taskJ{ checkListBox->GetString(j).ToStdString(), checkListBox->IsChecked(j) };
+
+	checkListBox->SetString(i, taskJ.description);
+	checkListBox->Check(i, taskJ.done);
 }
