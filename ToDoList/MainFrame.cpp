@@ -90,6 +90,10 @@ void MainFrame::DeleteSelectedTask()
 void MainFrame::MoveSelectedTask(int offset)
 {
 	int selectedIndex = checkListBox->GetSelection();
+
+	if (selectedIndex == wxNOT_FOUND) {
+		return;
+	}
 }
 
 void MainFrame::SwapTasks(int i, int j)
