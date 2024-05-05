@@ -71,7 +71,9 @@ void MainFrame::OnClearButtonClicked(wxCommandEvent& evt)
 		return;
 	}
 
-	wxMessageDialog dialog(this, "Are you sure you want to clear all task?", "Clear", wxYES_NO | wxCANCEL);
+	wxMessageDialog dialog(this, "Are you sure you want to clear all task?",
+		"Clear", wxYES_NO | wxCANCEL);
+	int result = dialog.ShowModal();
 }
 
 void MainFrame::AddTaskFromInput()
