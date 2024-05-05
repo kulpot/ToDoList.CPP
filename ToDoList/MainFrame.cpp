@@ -70,6 +70,8 @@ void MainFrame::OnClearButtonClicked(wxCommandEvent& evt)
 	if (checkListBox->IsEmpty()) {
 		return;
 	}
+
+	wxMessageDialog dialog(this, "Are you sure you want to clear all task?", "Clear", wxYES_NO | wxCANCEL);
 }
 
 void MainFrame::AddTaskFromInput()
