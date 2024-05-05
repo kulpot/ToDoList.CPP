@@ -67,6 +67,9 @@ void MainFrame::OnListKeyDown(wxKeyEvent& evt)
 
 void MainFrame::OnClearButtonClicked(wxCommandEvent& evt)
 {
+	if (checkListBox->IsEmpty()) {
+		return;
+	}
 }
 
 void MainFrame::AddTaskFromInput()
