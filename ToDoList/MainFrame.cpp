@@ -112,4 +112,6 @@ void MainFrame::SwapTasks(int i, int j)
 	checkListBox->Check(i, taskJ.done);
 
 	checkListBox->SetString(j, taskI.description);
+	checkListBox->Check(j, taskI.done);
+
 }
