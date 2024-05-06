@@ -76,7 +76,7 @@ void MainFrame::OnClearButtonClicked(wxCommandEvent& evt)
 	int result = dialog.ShowModal();
 
 	if (result == wxID_YES) {
-
+		checkListBox->Clear();
 	}
 }
 
