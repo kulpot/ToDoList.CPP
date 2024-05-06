@@ -93,7 +93,7 @@ void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 		tasks.push_back(task);
 	}
 
-	saveTasksToFile(tasks, "tasks.txt");
+	SaveTasksToFile(tasks, "tasks.txt");
 	evt.Skip();
 }
 

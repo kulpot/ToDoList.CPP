@@ -14,6 +14,6 @@ struct Task
 	bool done;
 };
 
-void saveTasksToFile(const std::vector<Task>& tasks, const std::string& fileName);
+void SaveTasksToFile(const std::vector<Task>& tasks, const std::string& fileName);
 std::vector<Task> loadTasksFromFile(const std::string& fileName);
 
