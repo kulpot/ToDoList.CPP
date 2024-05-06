@@ -83,6 +83,9 @@ void MainFrame::OnClearButtonClicked(wxCommandEvent& evt)
 
 void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 {
+	std::vector<Task> tasks;
+
+
 }
 
 void MainFrame::AddTaskFromInput()
