@@ -89,6 +89,7 @@ void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 	{
 		Task task;
 		task.description = checkListBox->GetString(i);
+		task.done = checkListBox->IsChecked(i);
 	}
 }
 
