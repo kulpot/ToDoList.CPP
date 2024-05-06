@@ -94,6 +94,7 @@ void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 	}
 
 	saveTasksToFile(tasks, "tasks.txt");
+	evt.Skip();
 }
 
 void MainFrame::AddTaskFromInput()
