@@ -87,7 +87,8 @@ void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 
 	for (int i = 0; i < checkListBox->GetCount(); i++)
 	{
-
+		Task task;
+		task.description = checkListBox->GetString(i);
 	}
 }
 
