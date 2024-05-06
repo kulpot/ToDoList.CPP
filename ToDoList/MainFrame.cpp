@@ -92,6 +92,8 @@ void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 		task.done = checkListBox->IsChecked(i);
 		tasks.push_back(task);
 	}
+
+	saveTasksToFile(tasks, "tasks.txt");
 }
 
 void MainFrame::AddTaskFromInput()
