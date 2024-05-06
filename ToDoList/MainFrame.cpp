@@ -85,7 +85,10 @@ void MainFrame::OnWindowClosed(wxCloseEvent& evt)
 {
 	std::vector<Task> tasks;
 
+	for (int i = 0; i < checkListBox->GetCount(); i++)
+	{
 
+	}
 }
 
 void MainFrame::AddTaskFromInput()
