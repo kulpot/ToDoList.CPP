@@ -9,6 +9,7 @@ private:
 	void CreateControls();
 	void BindEventHandlers();
 
+
 	void OnAddButtonClicked(wxCommandEvent& evt);
 	void OnInputEnter(wxCommandEvent& evt);
 	void OnListKeyDown(wxKeyEvent& evt);
