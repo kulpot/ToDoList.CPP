@@ -48,6 +48,7 @@ void MainFrame::AddSavedTasks()
 
 	for (const Task& task : tasks) {
 		int index = checkListBox->GetCount();
+		checkListBox->Insert(task.description, index);
 	}
 }
 
