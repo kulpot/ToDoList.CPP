@@ -44,6 +44,8 @@ void MainFrame::BindEventHandlers()
 
 void MainFrame::AddSavedTasks()
 {
+	std::vector<Task> tasks = loadTasksFromFile("tasks.txt");
+
 }
 
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
