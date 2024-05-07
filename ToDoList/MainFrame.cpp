@@ -47,7 +47,7 @@ void MainFrame::AddSavedTasks()
 	std::vector<Task> tasks = loadTasksFromFile("tasks.txt");
 
 	for (const Task& task : tasks) {
-
+		int index = checkListBox->GetCount();
 	}
 }
 
