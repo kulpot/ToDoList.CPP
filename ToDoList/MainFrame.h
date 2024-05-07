@@ -8,6 +8,7 @@ public:
 private:
 	void CreateControls();
 	void BindEventHandlers();
+	void AddSavedTasks();
 
 
 	void OnAddButtonClicked(wxCommandEvent& evt);
