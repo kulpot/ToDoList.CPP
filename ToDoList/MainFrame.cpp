@@ -46,6 +46,9 @@ void MainFrame::AddSavedTasks()
 {
 	std::vector<Task> tasks = loadTasksFromFile("tasks.txt");
 
+	for (const Task& task : tasks) {
+
+	}
 }
 
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
