@@ -41,6 +41,10 @@ void MainFrame::BindEventHandlers()
 	this->Bind(wxEVT_CLOSE_WINDOW, &MainFrame::OnWindowClosed, this);
 }
 
+void MainFrame::AddSavedTasks()
+{
+}
+
 void MainFrame::OnAddButtonClicked(wxCommandEvent& evt)
 {
 	AddTaskFromInput();
