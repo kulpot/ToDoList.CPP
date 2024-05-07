@@ -8,6 +8,7 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
 	CreateControls();
 	BindEventHandlers();
+	AddSavedTasks(); // important: must be after CreateControls();
 }
 
 void MainFrame::CreateControls()
