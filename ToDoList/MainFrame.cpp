@@ -8,23 +8,29 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 //MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE & ~(wxRESIZE_BORDER | wxMAXIMIZE_BOX)) //<-- None Resizable Layout
 {
 	//SetClientSize(1000, 600);
+	//
+	//wxPanel* panel = new wxPanel(this);
+	//button = new wxButton(panel, wxID_ANY, "Centered Button", wxPoint(375, 250), wxSize(250, 100));
+
+	//Bind(wxEVT_SIZE, &MainFrame::OnResize, this);
 
 	CreateControls();
 	BindEventHandlers();
 	AddSavedTasks(); // important: must be after CreateControls();
-
-	Bind(wxEVT_SIZE, &MainFrame::OnResize, this);
 }
 
 void MainFrame::OnResize(wxSizeEvent& evt)
 {
-	wxSize clientSize = GetClientSize();
-
-	wxSize buttonSize(clientSize.GetWidth() * 0.25, 100);
-	int buttonX = (clientSize.GetWidth() - buttonSize.GetWidth()) / 2;
-	int buttonY = (clientSize.GetHeight() - buttonSize.GetHeight()) / 2;
-
-
+	//wxSize clientSize = GetClientSize();
+	//
+	//wxSize buttonSize(clientSize.GetWidth() * 0.25, 100);
+	//int buttonX = (clientSize.GetWidth() - buttonSize.GetWidth()) / 2;
+	//int buttonY = (clientSize.GetHeight() - buttonSize.GetHeight()) / 2;
+	//
+	//button->SetSize(buttonSize);
+	//button->SetPosition(wxPoint(buttonX, buttonY));
+	//
+	//evt.Skip();
 }
 
 void MainFrame::CreateControls()
