@@ -6,7 +6,7 @@ class MainFrame : public wxFrame
 public:
 	MainFrame(const wxString& title);
 private:
-	void OnResize(wxSizeEvent& evt);
+	//void OnResize(wxSizeEvent& evt);
 
 	void CreateControls();
 	void BindEventHandlers();
