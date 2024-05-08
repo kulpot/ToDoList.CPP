@@ -15,5 +15,5 @@ struct Task
 };
 
 void SaveTasksToFile(const std::vector<Task>& tasks, const std::string& fileName);
-std::vector<Task> loadTasksFromFile(const std::string& fileName);
+std::vector<Task> LoadTasksFromFile(const std::string& fileName);
 
