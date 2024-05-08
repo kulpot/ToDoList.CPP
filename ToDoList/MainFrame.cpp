@@ -7,6 +7,8 @@
 MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 //MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE & ~(wxRESIZE_BORDER | wxMAXIMIZE_BOX)) //<-- None Resizable Layout
 {
+	//SetClientSize(1000, 600);
+
 	CreateControls();
 	BindEventHandlers();
 	AddSavedTasks(); // important: must be after CreateControls();
@@ -16,6 +18,9 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 
 void MainFrame::OnResize(wxSizeEvent& evt)
 {
+	wxSize clientSize = GetClientSize();
+
+	wxSize buttonSize(clientSize.GetWidth() * 0.25, 100);
 }
 
 void MainFrame::CreateControls()
