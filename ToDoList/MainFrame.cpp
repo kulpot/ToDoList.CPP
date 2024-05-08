@@ -21,6 +21,10 @@ void MainFrame::OnResize(wxSizeEvent& evt)
 	wxSize clientSize = GetClientSize();
 
 	wxSize buttonSize(clientSize.GetWidth() * 0.25, 100);
+	int buttonX = (clientSize.GetWidth() - buttonSize.GetWidth()) / 2;
+	int buttonY = (clientSize.GetHeight() - buttonSize.GetHeight()) / 2;
+
+
 }
 
 void MainFrame::CreateControls()
