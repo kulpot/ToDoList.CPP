@@ -12,6 +12,10 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 	AddSavedTasks(); // important: must be after CreateControls();
 }
 
+void MainFrame::OnResize(wxSizeEvent& evt)
+{
+}
+
 void MainFrame::CreateControls()
 {
 	wxFont headlineFont(wxFontInfo(wxSize(0, 36)).Bold());
